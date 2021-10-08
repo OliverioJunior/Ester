@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    background-image: url(./img/fundo.jpeg);
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    
+    
+    
+  
+  /*  // filter: opacity(75%);*/
+} 
+
+.icon{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    
+}
+.lista{
+    
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    filter: drop-shadow(2px 4px 6px black);
+    filter: opacity(50%);
+    background-color: black;
+    color: white; 
+    font-weight:bolder;
+    justify-content:space-between;
+    align-items: center;
+}
+a{
+    filter: opacity(100%);
+    text-decoration:none;
+    color: white;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.l-top{
+    margin-top: 20px;
+    border-bottom: 2px solid white;
+    width: 100%;    
+
+}
+.l-top p span{
+    
+    margin-bottom: 20px;
+    display: flex;
+    
+}
+ 
+
+.l-bot{
+    margin-bottom: 30px;
+    border-top: 2px solid white;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.cupom{
+    border: 2px solid #ff0000;
+    border-radius: 15px;
+    padding-left: 15px;
+    animation: neon 3s alternate infinite ease-in-out
+}
+
+.fas{
+    padding-right: 30px;
+    color: red;
+    animation: neon 2s alternate infinite ease-in-out
+}
+
+@keyframes neon {
+    from {
+        filter: drop-shadow(0 0 0 #ff0000)
+    }
+    to {
+        filter:drop-shadow(0 0 40px #6cc407)
+    }
+}
+
+
+
